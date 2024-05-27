@@ -392,7 +392,7 @@ const Home = observer(() => {
                       level: 6,
                     },
                   });
-                  createDownload("picsmaller.zip", result);
+                  createDownload("jpgcat-small.zip", result);
                   gstate.loading = false;
                 }}
               >
