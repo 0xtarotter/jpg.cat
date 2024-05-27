@@ -392,7 +392,7 @@ const Home = observer(() => {
                       level: 6,
                     },
                   });
-                  createDownload("jpg-cat-picsmaller.zip", result);
+                  createDownload("picsmaller.zip", result);
                   gstate.loading = false;
                 }}
               >
@@ -481,7 +481,23 @@ const Home = observer(() => {
               },
             }}
           >
-            
+            <Flex className={style.locale} align="center">
+              <svg viewBox="0 0 24 24" style={{ color: "currentcolor" }}>
+                <path d="M12.87,15.07L10.33,12.56L10.36,12.53C12.1,10.59 13.34,8.36 14.07,6H17V4H10V2H8V4H1V6H12.17C11.5,7.92 10.44,9.75 9,11.35C8.07,10.32 7.3,9.19 6.69,8H4.69C5.42,9.63 6.42,11.17 7.67,12.56L2.58,17.58L4,19L9,14L12.11,17.11L12.87,15.07M18.5,10H16.5L12,22H14L15.12,19H19.87L21,22H23L18.5,10M15.88,17L17.5,12.67L19.12,17H15.88Z" />
+              </svg>
+              <Typography.Text>{getLangStr()}</Typography.Text>
+            </Flex>
+          </Dropdown>
+          <Divider type="vertical" style={{ background: "#dfdfdf" }} />
+          <Typography.Link
+            className={style.github}
+            target="_blank"
+            href="/"
+          >
+            <GithubOutlined />
+          </Typography.Link>
+        </Space>
+      </Flex>
 
       {/* body */}
       <Flex align="stretch" className={style.main}>
