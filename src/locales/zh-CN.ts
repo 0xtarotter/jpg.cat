@@ -3,7 +3,7 @@ import zhCN from "antd/locale/zh_CN";
 
 const localeData: LocaleData = {
   antLocale: zhCN,
-  logo: "图小小",
+  logo: "🐱JPG.CAT",
   initial: "初始化中",
   previewHelp: "拖动分割线对比压缩效果：左边是原始图，右边是压缩图",
   uploadCard: {
