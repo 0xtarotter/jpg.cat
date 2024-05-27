@@ -5,7 +5,7 @@ import koKR from "antd/locale/ko_KR";
 
 const localeData: LocaleData = {
   antLocale: koKR,
-  logo: "Pic Smaller",
+  logo: "🐱JPG.CAT",
   initial: "초기화 중",
   previewHelp:
     "압축 효과를 비교하려면 구분선을 드래그하세요. 왼쪽은 원본 이미지, 오른쪽은 압축된 이미지입니다.",
