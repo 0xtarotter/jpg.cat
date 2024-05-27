@@ -5,7 +5,7 @@ import jaJP from "antd/locale/ja_JP";
 
 const localeData: LocaleData = {
   antLocale: jaJP,
-  logo: "Pic Smaller",
+  logo: "🐱JPG.CAT",
   initial: "初期化中",
   previewHelp:
     "分割線をドラッグして圧縮効果を比較します。左が元の画像、右が圧縮された画像です",
